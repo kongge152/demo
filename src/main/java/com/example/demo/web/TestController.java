@@ -10,13 +10,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class TestController {
 
-
-
-
     @RequestMapping("/")
     public  String test(){
 
         return "Hello";
+    }
+
+    /***
+     *
+     * @return
+     */
+    @RequestMapping("/test")
+    public  String testRequest(){
+        return "我的测试请求访问哦(xlj)";
     }
 
 }
