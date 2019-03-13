@@ -21,8 +21,8 @@ public class TestController {
      * @return
      */
     @RequestMapping("/test")
-    public  String testRequest(){
-        return "我的测试请求访问哦(xlj)";
+    public  String testReq(){
+        return "redirect:page/html.html";
     }
 
 }
