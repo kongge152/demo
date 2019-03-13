@@ -22,7 +22,7 @@ public class TestController {
      */
     @RequestMapping("/test")
     public  String testReq(){
-        return "redirect:page/html.html";
+        return "redirect:page/html";
     }
 
 }
