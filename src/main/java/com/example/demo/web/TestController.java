@@ -16,7 +16,7 @@ public class TestController {
     @RequestMapping("/")
     public  String test(){
 
-        return "Hello Word！！！";
+        return "应该是返回页面的哦!!!";
     }
 
 }
